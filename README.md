@@ -1,0 +1,2 @@
+# Dart: Unexpected Error Using reduce() on List<String>
+This example demonstrates a common error when using the `reduce()` method in Dart with a list of strings.  The `reduce()` method expects a function that takes two arguments of the same type and returns a value of that same type.  Directly using the `+` operator on strings within `reduce()` will fail because it attempts string concatenation, not numerical addition. The solution shows how to use `fold()` for correct type handling and to achieve the intended sum.
